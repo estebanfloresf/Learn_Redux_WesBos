@@ -21,7 +21,7 @@ const Photo = (props) => {
       <figcaption>
         <p>{post.caption}</p>
         <div className="control-buttons">
-          <button className="likes">
+          <button className="likes" onClick={props.increment.bind(null,index)}>
             &hearts; {post.likes}
           </button>
           <Link to={`/view/${post.code}`} className="button">
