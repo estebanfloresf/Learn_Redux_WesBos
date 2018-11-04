@@ -1,6 +1,6 @@
 # Learn Redux
 
-A simple React + Redux implementation.
+A simple React + Redux implementation. Mimics same functionality as an instagram app.
 
 ## Running
 
